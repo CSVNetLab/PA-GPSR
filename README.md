@@ -6,7 +6,13 @@ This repository provides PA-GPSR for ns3 v3.23. Besides that, we have implemente
 
 # Plot Results
 
-Use the "main.m" script to generate the results 
+Use the "main.m" script to generate the results.
+
+Parameters: 
+
+- n_seeds ** number of seeds used in the simulation (this number should match! otherwise your graphs will be wrong). **
+- simtime ** **
+- time_vector ** **
 
 ## Packet Loss Rate
 
