@@ -12,7 +12,7 @@ Parameters:
 
 - n_seeds -> **number of seeds used in the simulation**
 - simtime -> **simulation time**
-- time_vector **the vector of the number of vehicles used in simulation. In our case this number was [30 50 70 90 110]**
+- time_vector -> **the vector of the number of vehicles used in simulation. In our case this number was [30 50 70 90 110]**
 
 ## Packet Loss Rate
 
