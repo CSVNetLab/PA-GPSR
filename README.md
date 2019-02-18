@@ -10,9 +10,10 @@ Use the "main.m" script to generate the results.
 
 Parameters: 
 
-- n_seeds -> **number of seeds used in the simulation**
-- simtime -> **simulation time**
-- time_vector -> **the vector of the number of vehicles used in simulation. In our case this number was [30 50 70 90 110]**
+- n_seeds -> **Number of seeds used in the simulation**
+- simtime -> **Simulation time**
+- time_vector -> **The vector of the number of vehicles used in simulation. In our case this number was [30 50 70 90 110]**
+- n_pairs -> **Number of source-destination pairs used in simulation**
 
 ## Packet Loss Rate
 
