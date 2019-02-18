@@ -15,14 +15,14 @@ Use the "main.m" script to generate the results
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/plr_15.png)
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/plr_20.png)
 
-## Delay
+## Delay (ms)
 
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/delay_5.png)
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/delay_10.png)
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/delay_15.png)
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/delay_20.png)
 
-## Delay
+## Network Yield
 
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/yield_5.png)
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/yield_10.png)
