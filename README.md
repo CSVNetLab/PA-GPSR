@@ -6,7 +6,7 @@ This repository provides PA-GPSR for ns3 v3.23. Besides that, we have implemente
 
 # Generating Results
 
-Run the "plot_results.m" script located at "scripts" folder to generate the results.
+Run the "plot_results.m" script located at "scripts" folder to plot the graphs.
 
 Parameters: 
 
