@@ -4,7 +4,7 @@ Improvement and Performance Evaluation of GPSR-Based Routing Techniques for Vehi
 This repository provides PA-GPSR for ns3 v3.23. Besides that, we have implemented two competitors (MM-GPSR and GPSR) also available in this repository.
 
 
-# Plot Results
+# Generating Results
 
 Run the "plot_results.m" script located at "scripts" folder to generate the results.
 
