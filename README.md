@@ -38,7 +38,7 @@ Parameters:
 
 
 # Citation
-
+``` bibtex
 @article{silva2019improvement,
   title={Improvement and Performance Evaluation of GPSR-Based Routing Techniques for Vehicular Ad Hoc Networks},
   author={Silva, Andrey and Reza, Niaz and Oliveira, Aurenice},
@@ -46,3 +46,4 @@ Parameters:
   year={2019},
   publisher={IEEE}
 }
+```
