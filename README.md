@@ -10,9 +10,9 @@ Use the "main.m" script to generate the results.
 
 Parameters: 
 
-- n_seeds ** number of seeds used in the simulation (this number should match! otherwise your graphs will be wrong). **
-- simtime ** **
-- time_vector ** **
+- n_seeds **number of seeds used in the simulation (this number should match! otherwise your graphs will be wrong)**
+- simtime ****
+- time_vector ****
 
 ## Packet Loss Rate
 
