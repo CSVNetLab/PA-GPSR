@@ -1,0 +1,35 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+# def options(opt):
+#     pass
+
+# def configure(conf):
+#     conf.check_nonfatal(header_name='stdint.h', define_name='HAVE_STDINT_H')
+
+def build(bld):
+    module = bld.create_ns3_module('pagpsr', ['location-service', 'internet', 'wifi', 'applications', 'mesh', 'point-to-point', 'virtual-net-device'])
+    module.source = [
+        'model/pagpsr-rtable.cc',
+        'model/pagpsr-rst-table.cc',
+        'model/pagpsr-ptable.cc',
+        'model/pagpsr-rqueue.cc',
+        'model/pagpsr-packet.cc',
+        'model/pagpsr.cc',
+        'helper/pagpsr-helper.cc',
+        ]
+
+    headers = bld(features=['ns3header'])
+    headers.module = 'pagpsr'
+    headers.source = [
+        'model/pagpsr-rtable.h',
+        'model/pagpsr-rst-table.h',
+        'model/pagpsr-ptable.h',
+        'model/pagpsr-rqueue.h',
+        'model/pagpsr-packet.h',
+        'model/pagpsr.h',
+        'helper/pagpsr-helper.h',
+        ]
+
+    
+    # bld.ns3_python_bindings()
+
