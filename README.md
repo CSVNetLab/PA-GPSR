@@ -5,7 +5,23 @@ This repository provides PA-GPSR for ns3 **v3.23**. Besides that, we have implem
 
 # Installation
 1. Install all required dependencies required by ns-3. You can find the commands [here](https://www.nsnam.org/wiki/Installation).
+2. Download ns3 via Tarball
 
+```
+ wget http://www.nsnam.org/release/ns-allinone-3.23.tar.bz2
+ tar xjf ns-allinone-3.23.tar.bz2
+ cd ns-allinone-3.23
+ git clone https://github.com/CSVNetLab/PA-GPSR
+ cp -a PA-GPSR/src/. ns-3.23/src/
+ cp -a PA-GPSR/examples/. ns-3.23/scratch/
+ cp -a PA-GPSR/results/ ns-3.23/
+ cp -a PA-GPSR/figures/ ns-3.23/
+ cp -a PA-GPSR/scripts/ ns-3.23/
+ 
+ cd ns-3.23
+ ./waf configure --enable-examples
+```
+3. Copy the so
 
 # Generating Results
 
