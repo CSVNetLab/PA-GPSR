@@ -37,6 +37,16 @@ Parameters:
 ![](https://github.com/CSVNetLab/PA-GPSR/blob/master/figures/yield_20.png)
 
 
+Contact
+============
+* Andrey Silva, Brazil, andreysilva.eng@gmail.com, atorresd@mtu.edu
+* Niaz Reza, USA, kreza@mtu.edu
+* Aurenice Oliveira, USA, oliveira@mtu.edu
+
+How to reference PA-GPSR?
+============
+Please use the following bibtex :
+
 # Citation
 ``` bibtex
 @article{silva2019improvement,
