@@ -19,9 +19,13 @@ This repository provides PA-GPSR for ns3 **v3.23**. Besides that, we have implem
  cp -a PA-GPSR/scripts/ ns-3.23/
  
  cd ns-3.23
- ./waf configure --enable-examples
+ CXXFLAGS="-Wall -std=c++0x" ./waf configure --enable-examples
+ ./waf
+ sudo ./waf install
 ```
-3. Copy the so
+# Running
+
+#TODO
 
 # Generating Results
 
