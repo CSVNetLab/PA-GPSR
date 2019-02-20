@@ -38,7 +38,7 @@ You can change the parameters of simulation through this file. The parameters ar
 - algorithms -> **Algorithm name that you want to simulate. Can be pagpsr, gpsr and mmgpsr.**
 - seeds -> **A vector of random seeds (size = 30) to perform the simulation.**
 - speed -> **Maximum speed of vehicles.**
-- cbrconn -> **Vector containing the numbers of source-destination pairs. In our cse this vector was [5 10 15 20].**
+- cbrconn -> **Vector containing the numbers of source-destination pairs. In our case this vector was [5 10 15 20].**
 
 # Generating Results
 
