@@ -85,11 +85,17 @@ Please use the following bibtex :
 
 # Citation
 ``` bibtex
-@article{silva2019improvement,
-  title={Improvement and Performance Evaluation of GPSR-Based Routing Techniques for Vehicular Ad Hoc Networks},
-  author={Silva, Andrey and Reza, Niaz and Oliveira, Aurenice},
-  journal={IEEE Access},
-  year={2019},
-  publisher={IEEE}
-}
+
+@ARTICLE{silva2019improvement, 
+author={A. {Silva} and N. {Reza} and A. {Oliveira}}, 
+journal={IEEE Access}, 
+title={Improvement and Performance Evaluation of GPSR-Based Routing Techniques for Vehicular Ad Hoc Networks}, 
+year={2019}, 
+volume={7}, 
+number={}, 
+pages={}, 
+keywords={Routing;Ad hoc networks;Routing protocols;Safety;Wireless communication;Delays;GPSR;Routing protocol;VANETs;SUMO;NS-3}, 
+doi={10.1109/ACCESS.2019.2898776}, 
+ISSN={2169-3536}, 
+month={},}
 ```
