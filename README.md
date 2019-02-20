@@ -17,7 +17,8 @@ This repository provides PA-GPSR for ns3 **v3.23**. Besides that, we have implem
  cp -a PA-GPSR/results/ ns-3.23/
  cp -a PA-GPSR/figures/ ns-3.23/
  cp -a PA-GPSR/scripts/ ns-3.23/
- 
+ cp PA-GPSR/main.sh ns-3.23/
+
  cd ns-3.23
  CXXFLAGS="-Wall -std=c++0x" ./waf configure --enable-examples
  ./waf
@@ -25,7 +26,19 @@ This repository provides PA-GPSR for ns3 **v3.23**. Besides that, we have implem
 ```
 # Running
 
-#TODO
+On the terminal, execute the command: 
+
+```
+sh main.sh
+```
+
+You can change the parameters of simulation through this file. The parameters are:
+
+- nCores -> **Number of parallel executions bounded by the number of cores that your computer has. **
+- algorithms -> **Algorithm name that you want to simulate. Can be pagpsr, gpsr and mmgpsr.**
+- seeds -> **A vector of random seeds (size = 30) to perform the simulation.**
+- speed -> **Maximum speed of vehicles.**
+- cbrconn -> **Vector containing the numbers of source-destination pairs. In our cse this vector was [5 10 15 20].**
 
 # Generating Results
 
@@ -35,7 +48,7 @@ Parameters:
 
 - n_seeds -> **Number of seeds used in the simulation**
 - simtime -> **Simulation time**
-- time_vector -> **The vector of the number of vehicles used in simulation. In our case this number was [30 50 70 90 110]**
+- time_vector -> **The vector containing the numbers of vehicles used in simulation. In our case this vector was [30 50 70 90 110]**
 - n_pairs -> **Number of source-destination pairs used in simulation**
 
 ## Packet Loss Rate
