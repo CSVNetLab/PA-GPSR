@@ -5,7 +5,7 @@ This repository provides PA-GPSR for ns3 **v3.23**. Besides that, we have implem
 
 # Installation
 1. Install all required dependencies required by ns-3. You can find the commands [here](https://www.nsnam.org/wiki/Installation).
-2. Download ns3 via Tarball
+2. Download ns3.
 
 ```
  wget http://www.nsnam.org/release/ns-allinone-3.23.tar.bz2
