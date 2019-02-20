@@ -34,7 +34,7 @@ sh main.sh
 
 You can change the parameters of simulation through this file. The parameters are:
 
-- nCores -> **Number of parallel executions bounded by the number of cores that your computer has. **
+- nCores -> **Number of parallel executions bounded by the number of cores that your computer has.**
 - algorithms -> **Algorithm name that you want to simulate. Can be pagpsr, gpsr and mmgpsr.**
 - seeds -> **A vector of random seeds (size = 30) to perform the simulation.**
 - speed -> **Maximum speed of vehicles.**
