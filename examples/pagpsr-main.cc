@@ -93,7 +93,6 @@ private:
   std::string algorithm;
   int sourcenode;
   int destinationNode;
-  GridMap gridMap;
   int speed;
   uint32_t drift;
   uint32_t nPairs;
