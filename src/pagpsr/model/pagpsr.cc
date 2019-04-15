@@ -1124,7 +1124,7 @@ RoutingProtocol::RouteOutput (Ptr<Packet> p, const Ipv4Header &header,
 
     }
   else
-    {
+
       nextHop = m_neighbors.BestNeighbor (dstPos, myPos,origin_packet, dst);
   if (nextHop != Ipv4Address::GetZero ())
     {
