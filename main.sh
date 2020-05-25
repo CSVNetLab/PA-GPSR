@@ -14,7 +14,26 @@ speed="15"
 cbrconn="5 10 15 20"
 k=0
 
-start=110
+
+#removing old gpsr results
+eval rm results/gpsr_results/pairs5/*.txt
+eval rm results/gpsr_results/pairs10/*.txt
+eval rm results/gpsr_results/pairs15/*.txt
+eval rm results/gpsr_results/pairs20/*.txt
+
+#removing old pagpsr results
+eval rm results/pagpsr_results/pairs5/*.txt
+eval rm results/pagpsr_results/pairs10/*.txt
+eval rm results/pagpsr_results/pairs15/*.txt
+eval rm results/pagpsr_results/pairs20/*.txt
+
+#removing old mmgpsr results
+eval rm results/mmgpsr_results/pairs5/*.txt
+eval rm results/mmgpsr_results/pairs10/*.txt
+eval rm results/mmgpsr_results/pairs15/*.txt
+eval rm results/mmgpsr_results/pairs20/*.txt
+
+start=30
 end=30
 
 for ((i=start; i>=end; i=i-20))
