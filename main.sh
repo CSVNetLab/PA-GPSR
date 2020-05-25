@@ -5,7 +5,7 @@ eval clear
 
 nCores=7
 
-algorithms="pagpsr"
+algorithms="pagpsr gpsr mmgpsr"
 seeds="1 50 98 150 250 890 2000 2035 7899 11040 11390 12000 12035 17899 21390 22000 22035 27899 31040 32035 871 33 90 1098 1176 543 9761 1394 8888 671"
 sufix="\" &"
 simprefix="./waf --run \"pagpsr-main"
